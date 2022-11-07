@@ -17,17 +17,11 @@
         <div class="progressbar">
             <div class="progress" id="progress"></div>
 
-            <div class="progress-step progress-step-active" data-title="PLAN"></div>
+            <div class="progress-step progress-step-active" data-title="GET STARTED"></div>
+            <div class="progress-step" data-title="PLAN"></div>
             <div class="progress-step" data-title="DO"></div>
             <div class="progress-step" data-title="CHECK"></div>
             <div class="progress-step" data-title="ACT"></div>
-            <!-- <div class="progress-step" data-title="Section 5"></div>
-            <div class="progress-step" data-title="Section 6"></div>
-            <div class="progress-step" data-title="Section 7"></div>
-            <div class="progress-step" data-title="Section 8"></div>
-            <div class="progress-step" data-title="Section 9"></div>
-            <div class="progress-step" data-title="Section 10"></div>
-            <div class="progress-step" data-title="Section 11"></div> -->
         </div>
 
         <h1 class="text-center">Registration form</h1>
@@ -55,15 +49,12 @@
 
 
             <br><br>
-            <!-- <div class="">
-                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
-            </div> -->
-        
+            <div class="btns-group">
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        </div>
 
-
-
-            <!-- Section 1 -->
-       
+        <div class="form-step">
             <p><strong>Plan-</strong> BUSINESS INFORMATION</p>
             <div class="business_logo">
                 <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
@@ -89,272 +80,197 @@
             </div>
 
             <div>
-                <h2>ISO 14001:2015 Environmental Management System </h2>
-                <P><strong>ISO 14001:2015 Environmental Management System <br>Key decision makers are responsible for
-                        the system: leading, policy, budget, objectives, implementation, quarterly auditing and annual
-                        review. Direct management runs the system. <br>Key Decision Maker/s responsible (name/s,
-                        title/s, signatures): </strong></P>
+                <h4>Conforming to ISO 14001:2015</h4>
+                <h2>SCOPE</h2>
+                <P>Physical location(s) to which the system applies: <strong>ISif you do business in more than one
+                        location, list all locations, including office</strong></P>
+                <label for="">Title</label>
+                <input type="text" class="input-new"></input> <br>
 
-                <textarea name="" id="" cols="115" rows="10"></textarea>
+                <label for="">Location Name</label>
+                <input type="text" class="input-new"></input> <br>
 
-                <p><strong>Direct Management (name/s, title/s, signatures: can be the same person/s as Key decision
-                        maker/s):</strong></p>
-                <textarea name="" id="" cols="115" rows="10"></textarea>
+                <label for="">Address</label>
+                <input type="text" class="input-new"></input>
+
+                <p><strong>Key Decision Maker(s) responsible for the system:</strong>leading, policy, budget,
+                    objectives, implementation, quarterly auditing and annual review:</p>
+
+                <label for="">Name</label>
+                <input type="text" class="input-new"></input> <br>
+
+                <label for="">Email Address</label>
+                <input type="email" class="input-new"></input> <br>
+
+                <div class="business_logo">
+                    <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
+                            style="display: none;"></p>
+                    <p><label class="upload_logo" for="file" style="cursor: pointer;">Click here to Upload
+                            Signature</label>
+                    </p>
+                    <p class="logo_output"><img id="output" width="200" /></p>
+                </div>
+
+
+                <p><strong>Environmental Manager responsible for day to day system operation</strong></p>
+
+                <label for="">Name</label>
+                <input type="text" class="input-new"></input> <br>
+
+                <label for="">Title</label>
+                <input type="text" class="input-new"></input> <br>
+
+                <label for="">Phone Number</label>
+                <input type="number" class="input-new"></input> <br>
+
+                <label for="">Email Address</label>
+                <input type="email" class="input-new"></input> <br>
+
+                <div class="business_logo">
+                    <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
+                            style="display: none;"></p>
+                    <p><label class="upload_logo" for="file" style="cursor: pointer;">Click here to Upload
+                            Signature</label>
+                    </p>
+                    <p class="logo_output"><img id="output" width="200" /></p>
+                </div>
+
+                <div>
+                    <h2>COMPLIANCE OBLIGATIONS</h2>
+                    <h4>Environmental Legal and Regulatory:</h4>
+                    <P>abides by all environmental laws and regulations pertaining to its operations, including the
+                        following:
+                    <ul>
+                        <li>Federal: We comply with the Canadian Environmental Protection Act.</li>
+
+                        <li>Provincial: We comply with the Provincial Environmental Acts.</li>
+
+                        <li>Municipal: We comply with all environmental municipal bylaws pertaining to our operations,
+                            including the handling of waste, water, air, and all permitting requirements applicable.
+                        </li>
+                    </ul>
+                    </P>
+
+                    <p><strong>Person/s responsible for Environmental Legal Compliance</strong></p>
+                    <input type="radio" id="" name="" value="HTML">
+                      <label for="html">Same as key decision maker</label><br>
+
+                    <input type="radio" id="" name="" value="HTML">
+                      <label for="html">
+                        Same as environmental manager</label><br>
+
+                    <input type="radio" id="" name="" value="HTML">
+                      <label for="html">Other</label><br>
+
+                    <div>
+                        <label for="">Name</label>
+                        <input type="text" class="input-new"></input> <br>
+
+                        <label for="">Title</label>
+                        <input type="text" class="input-new"></input> <br>
+
+                        <label for="">Phone Number</label>
+                        <input type="number" class="input-new"></input> <br>
+
+                        <label for="">Email Address</label>
+                        <input type="email" class="input-new"></input> <br>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3><u>Other Environmental Compliance Obligations:</u></h3>
+                    <p><i>Examples:</i></p>
+                    <ul>
+                        <li>agreement with cleaning service company to use non-toxic cleaning products</li>
+
+                        <li>agreement with customer to ship in reusable pallets.</li>
+                    </ul>
+
+                    <table>
+                        <caption>List agreements, if you have any</caption>
+                        <tr>
+                            <th>Name </th>
+                            <th>Name Agreement description and location to written agreement </th>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" class="table-input"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <h3>Interested Parties Environmental Communications:</h3>
+                    <p>List 3 examples of environmental suggestions, positive feedback, complaints, or requests from
+                        your customers, the public, and others.</p>
+                    <label for="gender"> Select from these options</label>
+                    <select name="gender" class="input-new">
+                        <option value="none" selected>Gender</option>
+                        <option value="male">Positve Feedback</option>
+                        <option value="female">Complaints or Request</option>
+                    </select>
+
+                </div>
+
+
+
             </div>
 
-            <br><br>
-           
-        
+            <br>
 
 
-
-            <!-- Section 2 -->
-        
-            <h2>SECTION 2. Compliance Obligations</h2>
-            <h4>Government Laws and Regulations, Canada: </h4>
-            <p><strong>Update as appropriate</strong></p>
-            <p><strong>Federal:</strong> <br>
-                We comply with the Canadian Environmental Protection Act, its Code of Practice, Environmental Waste
-                Regulations and Prevention of Pollution, and all other applicable federal regulations. <br>
-                <strong>Provincial:</strong> <br>
-                We comply with the Provincial Environmental Acts, including Water Resources, Pesticides, Safe Drinking
-                Water, Waste Reduction, Toxics Reductions Acts, and all other applicable provincial regulations. <br>
-                <strong>Municipal:</strong> <br>
-                We comply with the municipal bylaws pertaining to our operations, including the handling of waste,
-                water, air, and all permitting requirements applicable.
-            </p>
-
-            <div>
-                <p>People responsible for Environmental Legal Compliance: </p>
-                <textarea name="" id="" cols="115" rows="10"></textarea>
-            </div>
-
-            <div>
-                <p>Location of compliance laws and regulations documentation:</p>
-                <textarea name="" id="" cols="115" rows="10"></textarea>
-            </div>
-
-            <h2>Other Compliance Obligations:</h2>
-            <p><strong>List agreements, if you have any, with customers, suppliers, neighbours or others that require
-                    compliance with environmental obligations such as reduction of noise, commitment to energy
-                    reductions, use of nontoxic packaging or materials/ingredients. <br>
-                    Example: agreement with customer to take back delivery pallets
-                </strong></p>
-
-
-            <table>
-                <caption>Examples of Aspects and Impacts:</caption>
-                <tr>
-                    <th>Name </th>
-                    <th>Name Agreement description and location to written agreement </th>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-
-            <h2>ISO 14001:2015 Environmental Management System</h2>
-            <p><strong>Interested Parties Communication: complaints, suggestions, positive feedback, requests</strong></p>
-            </p> Demonstrate attention to customer complaints and to environmental concerns from interested parties
-                including the public. List a few examples and how you addressed them. Include positive feedback.
-                compliments.
-            <ul>
-                <li>customer complains about non-recyclable packaging and your response
-
-                </li>
-
-                <li>- supplier offers delivery in reusable pallets as per your request
-                </li>
-            </ul>
-
-            <p><strong>Commitment:</strong> We have an ongoing relationship and engage with our customers, suppliers,
-                employees, neighbours, as well as regulators, government, media, associations, and the public. We ask
-                for input about our performance and address all complaints and suggestions in person, on our website,
-                etc. <br>
-                NOTE: Make the above bold (Emphasize)
-            </p>
-
-
-                <br><br>
-
-            <br><br>
-           
-       
-
-
-            <h2>SECTION 3. Identify Activities, Aspects, Impacts </h2>
-
-            <p>First, create in the left column below the list of business activities. It is needed to identify your
-                impact on the environment from your activities and create annual environmental objectives. The more
-                detailed the list, the better the results. All activities are important. You are expected to make a list
-                of your actual activities. For example: testing equipment, cleaning physical spaces; activating and
-                monitoring lights, devices; recycling, landscaping, etc. <br>Go space by space. Insert rows in the table
-                as needed. Use the add more link to create space for more activities. <br>Remember, each business is
-                unique. You do some things others don’t, or you do them differently. List beneficial activities too
-                (like recycling). </p>
-
-
-            <table>
-                <caption>Examples of Aspects and Impacts:</caption>
-                <tr>
-                    <th>Examples of business activities: </th>
-                    <th></th>
-                </tr>
-
-                <tr>
-                    <td>Examples of business activities: </td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>Oiling 12 motors weekly</td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>Turning off computers nightly</td>
-                    <td></td>
-                </tr>
-
-
-                <tr>
-                    <td>Daily delivery by 2 trucks, 50x2 km each</td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>Use 100 cartons to package products daily</td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>Create 100 shipping documents daily</td>
-                    <td></td>
-                </tr>
-            </table>
-
-
-
-            <table>
-                <tr>
-                    <th>1. List business activities (yours)
-                        Complete activities column first
-                    </th>
-                    <th>2. Aspects (complete after reading on Aspects below
-                    </th>
-                    <th>3. Impacts (complete after reading on Impacts below</th>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td> <input type="text"></td>
-                    <td> <input type="text"></td>
-                </tr>
-            </table>
-
-
-            <h3>ACTIVITIES, ASPECTS AND IMPACTS</h3>
+            <h2>ACTIVITIES, ASPECTS AND IMPACTS</h2>
             <p><strong> ISO 14001:2015</strong> requires us to identify our environmental aspects and impacts resulting
-                from our activities:</p>
+                from our activities.</p>
 
             <h3>WHAT IS ENVIRONMENTAL?</h3>
             <img src="images/Law-of-Nature.png" style="width:900px" alt="Law-of-Nature">
@@ -362,16 +278,31 @@
             <p>The LAW of Nature (easy to remember)</p>
 
             <p>ASPECTS: Our interactions with the environment while performing our business activities. An easy way to
-                remember: aspects are what we take from or dump on the environment. Examples. taking: water,
-                electricity, materials; dumping: liquid or solid waste, exhaust. IMPACTS: what is affected in the
-                environment: the land, the air, the water, one, two, or all three. SIGNIFICANT IMPACTS: severe or toxic
-                impacts on land, air or water, like dumping paint.</p>
+                remember: <br>
+            <ul>
+                <li>Aspects are what we take from or dump on the environment.</li>
+                <li>What we discharge to the environment></li>
+            </ul>
+            </p>
+
+
+            <p><strong> Examples. taking:</strong> water, electricity, natural gas, wood.</p>
+
+            <p><strong> Examples of discharging:</strong>contaminated water, material waste, exhaust</p>
+
+            <p>The results of activities affecting positively the environment:
+            <ul>
+                <li>reduced land pollution</li>
+                <li>reduced air pollution</li>
+                <li>reduced water pollution</li>
+            </ul>
+            </p>
 
 
             <table>
                 <caption>Examples of Aspects and Impacts:</caption>
                 <tr>
-                    <th>Current Activities</th>
+                    <th>Activities</th>
                     <th>Aspects </th>
                     <th>Impacts</th>
                 </tr>
@@ -409,9 +340,9 @@
                 </tr>
 
                 <tr>
-                    <td>Cleaning offices</td>
-                    <td>Using toxic cleaners*</td>
-                    <td>Land, Air Water pollution (LAW)</td>
+                    <td><strong>Cleaning offices</strong></td>
+                    <td><strong>Using toxic cleaners*</strong></td>
+                    <td><strong>Land, Air Water pollution (LAW)</strong></td>
                 </tr>
 
                 <tr>
@@ -445,536 +376,787 @@
                 </tr>
 
                 <tr>
-                    <td>Painting frames of cut panels</td>
-                    <td>Using toxic paints*</td>
-                    <td>LAW pollution</td>
+                    <td><strong>Painting frames of cut panels</strong> </td>
+                    <td><strong>Using toxic paints*</strong></td>
+                    <td><strong>LAW pollution</strong></td>
                 </tr>
             </table>
 
-            <p>Directions: now go back to the list of your activities and fill out the aspects and impacts columns.
-                Remember this is done in sequence: first listing activities; then creating aspects, then the impacts.
-                The idea is to look at your activities and identify what you take from or dump on the environment, and
-                the impacts these activities have on land/air/water. Flag significant (bad) ones. Basically, you are
-                taking a picture of “now”. It will help you create objectives for improvement.</p>
+            <p>Now look at your business activities and identify what you take from, or discharge to the environment,
+                and what the impacts these activities have on land/air/water. Basically, you are taking a picture of
+                “now”. It will help you create objectives: Using the examples in the table above, create the list of
+                your own ongoing business activities, aspects and impacts below. The list should be from all areas of
+                the business. Activities should be clearly described and detailed enough to enable easy identification
+                of aspects and impacts. The order does not matter.</p>
+
+            <table>
+                <caption>Examples of Aspects and Impacts:</caption>
+                <tr>
+                    <th>Activities</th>
+                    <th>Aspects </th>
+                    <th>Impacts</th>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                    <td><input type="text" class="table-input"></td>
+                </tr>
+            </table>
+
+            <h3 style="color: green;">*Significant Aspects and Impacts</h3>
+            <p>ISO 14001:2015 requires to us identify high-priority negative aspects and impacts on land, air or water.
+                Examples include dumping paint, releasing toxins to air, contaminating water. There are two examples of
+                Aspects and Impacts in the table above, which are bolded. You decide <strong>*which of your business
+                    aspects have significant impacts</strong> on the environment, using your judgement.</p>
 
             <br><br>
             <div class="btns-group">
                 <a href="#" class="btn btn-prev">Previous</a>
                 <a href="#" class="btn btn-next">Next</a>
             </div>
-            
+
         </div>
 
         <!-- section for DO -->
         <!-- Section 4 -->
         <div class="form-step">
-            <h2>SECTION 4. Risk Assessment:</h2>
-            <p>Identification of potential THREATS of negative impacts on land air and water from your actions.
-                Examples: spills, fire, flooding, breakage of equipment, power outages, gas release, noise, pest
-                invasion, chemical contamination.</p>
+            <h2 style="color: green;"> RISK ASSESSMENT:</h2>
+            <p>A major principle of ISO 14001:2015 is the prevention of pollution. This requires identifying the serious
+                threats and higher risk level of negative impacts on land, air, and water. <br>
+                <strong>Examples</strong> include spills, fire, flooding, breakage of equipment, power outages, gas
+                release, noise, pest invasion, chemical contamination. These risks need to be taken into consideration
+                when creating new objectives.
+            </p>
 
 
             <div>
                 <table width="200">
-                    <caption>Example (4):</caption>
+                    <caption>Risk Assessment Examples</caption>
                     <tbody>
                         <tr>
-                            <th>Threats /possible emergencies resulting from business activity
-                            </th>
+                            <th>Environmental threats /possible emergencies resulting from business activity</th>
 
-                            <th>Negative impact on the environment</th>
+                            <th>Negative impact on the environment
+                                USE LAW (Land, Air, Water)</th>
 
-                            <th>Probability of it happening High/Medium/ Low</th>
+                            <th>Is the probability for the negative impact occurring high, medium, or low?
+                                You decide the probability.</th>
 
-                            <th>How significant: Major/Medium/Low </th>
+                            <th>If the impact occurs, will it be major, medium, or minor? You decide the level of
+                                impact.</th>
                         </tr>
 
                         <tr>
-                            <td>Oil spill while lubricating medium size electrical saw on factory floor, needs cleanup
-                            </td>
+                            <td>Oil spill during machine lubricating maintenance</td>
 
-                            <td>Waste of oil, cleanup with chemicals </td>
+                            <td>Land Pollution</td>
 
                             <td>Medium</td>
 
-                            <td>Major</td>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>Oil spill while lubricating medium size electrical saw on factory floor, needs cleanup
-                            </td>
-
-                            <td>Waste of oil, contamination of land and water resources </td>
-
                             <td>Medium</td>
-
-                            <td>Major</td>
-                            </td>
                         </tr>
 
                         <tr>
-                            <td>Cutting machine left idling</td>
+                            <td>Water pipe breakage and flooding</td>
 
-                            <td>Waste of electricity, air pollution, machine life shortened</td>
-
-                            <td> High</td>
+                            <td>Land & Water Pollution</td>
 
                             <td>Low</td>
+
+                            <td>Medium</td>
                             </td>
                         </tr>
 
                         <tr>
-                            <td>3 trucks idling daily 2 hours</td>
+                            <td>Machine breakage from overheating during heavy unplanned usage</td>
+
+                            <td>Air Land and Water Pollution</td>
+
+                            <td>Medium</td>
+
+                            <td>Major</td>
+                        </tr>
+
+                        <tr>
+                            <td>Idling trucks of emergency deliveries by new suppliers during Covid</td>
 
                             <td>Air pollution</td>
 
-                            <td>Medium</td>
+                            <td>High</td>
 
                             <td>Medium</td>
-                            </td>
                         </tr>
                     </tbody>
 
                 </table>
-
-
-                
-
-                <h2>Risk Assessment: </h2>
-                <p>Assess your potential threats and negative impacts on land, air, water and opportunities. Add rows as
-                    needed. ISO principle: PREVENTION OF POLLUTION</p>
+                <br><br>
 
                 <table width="200">
                     <tbody>
                         <tr>
-                            <th>Threats /possible emergencies resulting in negative impacts to land/air/water</th>
+                            <th>Environmental threats /possible emergencies resulting from business activity</th>
 
-                            <th>Risk: High, Medium, Low</th>
+                            <th>Negative impact on the environment
+                                USE LAW (Land, Air, Water)</th>
 
-                            <th>Impact: High,
-                                Medium, Low
-                            </th>
+                            <th>Is the probability for the negative impact occurring high, medium, or low? You decide
+                                the probability</th>
 
-                            <th>Opportunities to reduce threats and improve performance</th>
+                            <th>If the impact occurs, will it be major, medium, or minor? You decide the level of
+                                impact.</th>
                         </tr>
 
                         <tr>
-                            <td><input type="text">
+                            <td><input type="text" class="table-input">
                             </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
                         </tr>
 
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input">
+                            </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
                         </tr>
 
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input">
+                            </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
                         </tr>
 
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input">
+                            </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
                         </tr>
 
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input">
+                            </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
                         </tr>
 
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input">
+                            </td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
 
-                            <td><input type="text"></td>
+                            <td><input type="text" class="table-input"></td>
+                        </tr>d><input type="text"></td>
                         </tr>
                     </tbody>
 
                 </table>
-            </div>    
+            </div>
 
 
             <br><br>
-            
-        
+
+
 
 
             <!-- Section 5 -->
-            <h2>Section 5. Objectives:</h2>
-                    <p>the initiatives we take to improve environmental performance.
-                        This is the key section of the system. All the work done till now is to ensure we put in place
-                        and
-                        achieve new annual Environmental Objectives. Please review your activities, aspects and impacts
-                        above, then choose your environmental objectives for the year. Address activities with
-                        significant
-                        negative impacts first with appropriate objectives. Be proactive in your choice of bold
-                        objectives,
-                        but be aware: they should be carefully chosen not to overpromise and under-deliver
-                        (greenwashing),
-                        using SMART OBJECTIVES to achieve 100% compliance:
-                    </p>
+            <h3 style="color: green;">OBJECTIVES:</h3>
+            <p>These are the initiatives you are going to take to improve environmental performance – you create the
+                objectives for your business! All the work done until now is preparation in order to create annual
+                objectives. Carefully look at your environmental activities, aspects and impacts, and identify
+                opportunities to reduce negative impacts on land air and water.
+            </p>
 
-                    <p>Example of a SMART objective (3): <br>
-                        Specific: save electricity; Measurable: 4%; Actionable: turn-off switch; Realistic: doable;
-                        Time:
-                        nightly
-                    </p>
+            <div>
+                <table width="200">
+                    <caption>Examples of Objectives </caption>
+                    <tbody>
+                        <tr>
+                            <th>Activity</th>
 
-                    <div>
-                        <table width="200">
-                            <caption>Examples of Objectives (2): Time based: nightly</caption>
-                            <tbody>
-                                <tr>
-                                    <th>ACTIVITY</th>
+                            <th>Aspect</th>
 
-                                    <th>ASPECT</th>
+                            <th>Objective</th>
 
-                                    <th>OBJECTIVE</th>
+                            <th>Procedure</th>
 
-                                    <th>ACTION </th>
+                            <th>Result
+                                Expected</th>
 
-                                    <th>COST EST $ </th>
+                            <th>Start – End Date
+                                Responsibility</th>
+                        </tr>
 
-                                    <th>START/RESP</th>
-                                </tr>
+                        <tr>
+                            <td>Cutting panels and frames to size in batches, using electrical saws (12 stations)</td>
 
-                                <tr>
-                                    <td>OLighting
-                                        (20 FL lights) </td>
+                            <td>Using electricity </td>
 
-                                    <td>Using electricity </td>
+                            <td>Reduce by 6%</td>
 
-                                    <td>Reduce by 4%</td>
+                            <td>Stop idling saws between batches</td>
 
-                                    <td>Turn off lights at end of day
-                                        Kwh saved:
-                                    </td>
+                            <td>WH saved:
+                                10,800
+                                $$ saved:
+                                $1,080.00
+                                CO2 saved:
+                                5,875 kg
+                            </td>
 
-                                    <td>Current <br> $
-                                        New $
-                                    </td>
+                            <td>October 15
+                                ongoing <br> Jim Long
+                                Production Manager</td>
+                        </tr>
 
-                                    <td>Feb 1 2021
-                                        Jim Long Facilities Mgr
-                                    </td>
-                                    </td>
-                                </tr>
+                        <tr>
+                            <td><strong>Cleaning offices and equipment</strong></td>
 
-                                <tr>
-                                    <td>Cutting panels</td>
+                            <td>Using regular cleaners, some toxic</td>
 
-                                    <td>Using electricity</td>
+                            <td>Test efficacy of alternative cleaners</td>
 
-                                    <td>Reduce by 6%</td>
 
+                            <td>Purchase
+                                Test new cleaners
+                            </td>
 
-                                    <td>Stop idling saws between batches
-                                        Kwh saved:
-                                    </td>
+                            <td>Go Ahead
+                                YES/NO
+                            </td>
 
-                                    <td>Current <br> $
-                                        New $
-                                    </td>
 
+                            <td>November 30 <br>
+                                Mercedez Diaz
+                                Maintenance Manager</td>
+                        </tr>
 
-                                    <td>Operators
-                                        March 1 2021</td>
-                                </tr>
+                        <tr>
+                            <td>Local sales calls travel to customers offices 150/year</td>
 
-                                <tr>
-                                    <td>g</td>
+                            <td>Using gasoline</td>
 
-                                    <td>Using electricity</td>
+                            <td>Reduce to 100/year based on COVID travel
+                                reduction experience</td>
 
-                                    <td>Reduce by 10%</td>
+                            <td>New sales schedule created with customers and re-evaluation of results at year end</td>
 
-                                    <td>Kwh total saved:</td>
+                            <td>Gasoline saved: <br>
+                                284,000 liters <br>
+                                $$ saved: <br>
+                                51,000 <br>
+                                CO2 saved: <br>
+                                10,794 Kg</td>
 
-                                    <td>Total: $/($)</td>
+                            <td>anuary 1 <br>
+                                Margarita Sally
+                                Sales Manager</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                                    <td></td>
-                                </tr>
-                            </tbody>
+            <br>
+            <p>When setting objectives, take into account product lifecycle considerations, such as when buying raw
+                materials or disposal at end of life, including:
+            <ul>
+                <li>What is under the direct control of the business</li>
+                <li>What the business can influence indirectly</li>
+            </ul>
+            Examples include reducing, reusing or recycling. The choice of objectives can come from many sources such as
+            observation, suggestions, new knowledge, creative ideas. Think about <strong>SMART</strong> when documenting
+            your objectives: Specific, Measurable, Actionable, Realistic, Time-based. <br>
+            Choose carefully and avoid over promising. It is better to have a shorter realistic list of objectives than
+            under-delivering on a longer list (greenwashing). <br>
+            Create your carefully chosen Environmental Annual Objectives to reduce negative impacts on land, air, and
+            water, based on your activities, aspects and impacts. address significant aspects if you have any. A
+            resource list for creating objectives; calculation examples; and emission factors are found here.</p>
 
-                        </table>
-                    </div>
-
-
-                    <h2>OBJECTIVES: THE FEASIBILITY STUDY OPTION:</h2>
-                    <p>When you do not have a solution to a significant aspect and impact, you can still address it by
-                        creating a feasibility study - looking into possible options available to address the issue. The
-                        feasibility study allows you to demonstrate that you are not neglecting the significant impact,
-                        but
-                        do not yet have a solution, and therefore cannot commit to remove the significant impact. You
-                        may or
-                        may not find a solution by year end, but you document your actions looking for a solution.
-                        Example:
-                        you may not have found a VOC free paint to replace the toxic one in the example below. In this
-                        case,
-                        the objective is as follows:
-
-                        Feasibility study to search for a VOC free paint, Al Hurlich responsible, 30 hours by Dec. 2021.
-                    </p>
-
-                    <ol>
-                        <li>Specific: search for and test VOC free paints on panel surfaces that are effective
-
-                        <li>Measurable: research available suppliers of paints data base by April</li>
-
-                        <li>Actionable: purchase 10 gallons new VOC free paint use as test on 10 panels/do 5 quality
-                            control
-                            tests by August</li>
-                        <li>Realistic: recommended by paint manufacturer based on prior testing</li>
-
-                        <li>Time based: decision re purchasing new paint December 2021</li>
-                    </ol>
-
-                    <!-- Click here for form to use for a feasibility study project* -->
-
-                    <h2>Environmental Annual Objectives to reduce negative impacts on land/air/water
-                        (add rows if needed for additional objectives, carefully chosen to ensure implementation):
-                    </h2>
-
-                    <div>
-                        <table width="200">
-                            <caption>Environmental Annual Objectives to reduce negative impacts on land/air/water (add
-                                rows
-                                if needed for additional objectives, carefully chosen to ensure implementation):
-                            </caption>
-
-                            <tbody>
-                                <tr>
-                                    <th>Activities chosen to address with objectives(copy from Activities list)
-                                    </th>
-
-                                    <th>Objectives (SMART)</th>
-
-                                    <th>Cost estimate</th>
-
-                                    <th>Start date </th>
-
-                                    <th>End date</th>
-
-                                    <th>Person In Charge</th>
-                                </tr>
-
-                                <tr>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                </tr>
-
-                                <tr>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                </tr>
-
-                                <tr>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                </tr>
-
-                                <tr>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                </tr>
-
-                                <tr>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                    <td><input type="text"> </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                    <!-- Calculation will be here -->
-
-                    <h3>Objectives: Operational Procedures</h3>
-
-                    <p>Operational Procedures documentation is required by ISO 14001:2015 only for Emergency Response
-                        Activities. Other operational procedures do not have to be documented specifically for the
-                        Environmental Management System, but are recommended where needed to enable smooth
-                        implementation of
-                        the system. Template below:</p>
-
-                    <h4>Operational Procedures </h4>
-
-                    <table width="200">
-                        <caption>(more detailed procedures where necessary can be attached in Appendix):</caption>
-
-                        <tbody>
-                            <tr>
-                                <th>Objectives that meets procedures</th>
-
-                                <th>Trainer</th>
-
-                                <th>Who is to be trained</th>
-
-                                <th>Start date </th>
-
-                                <th>End date</th>
-
-                                <th>Person In Charge</th>
-                            </tr>
-
-                            <tr>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                            </tr>
-
-                            <tr>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                            </tr>
-
-                            <tr>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                            </tr>
-
-                            <tr>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                            </tr>
-
-                            <tr>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                                <td><input type="text"> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-
-                    <br><br>          
-
-
-                    <!-- Section 6 -->
-        
-                 <h4>SECTION 6: Emergency Response: Environmental Emergencies Procedures </h4>
-
-                     <table width="200">
-                        <tbody>
-                             <tr>
-                                 <th>Potential Emergency</th>
-
-                                <th>Procedure</th>
-
-                        <th>Company Internal
-                            Contacts Info
-                        </th>
-
-                        <th>Outside Emergency Contacts Info</th>
+
+
+            <table width="200">
+                <caption>Examples of Objectives </caption>
+                <tbody>
+                    <tr>
+                        <th>Activity</th>
+
+                        <th>Aspect</th>
+
+                        <th>Objective</th>
+
+                        <th>Procedure</th>
+
+                        <th>Result
+                            Expected</th>
+
+                        <th>Start – End Date
+                            Responsibility</th>
                     </tr>
 
                     <tr>
-                        <td> Chemical contamination</td>
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>POLICY</h3>
+            <p>Your environmental policy is a statement of the overall environmental direction of your business. It is a
+                declaration of your commitment to the environment. Post it publicly, in locations of your choice such as
+                business office, website, social media platform, etc. <br>
+                The policy can be short or long, and the text is your choice, but it must include these commitments:
+            <ol>
+                <li>compliance with all applicable environmental laws and regulations</li>
+                <li>conformance with the ISO 14001:2015 Environmental Management Standard</li>
+                <li>continual improvement</li>
+            </ol>
+            </p>
+            <p>Each year, depending on the new objectives chosen, the policy should indicate the new environmental
+                direction of the business. Examples: reducing (further) energy use, purchasing (more) green materials,
+                doing more training. There is no requirement to disclose specific objectives. The policy is easiest to
+                formulate after the creation of the environmental objectives.</p>
+            <h5>An example of a simple company policy statement:</h5>
+            <p>
+                <!--Auto populate business name here--> Environmental Policy
+            </p>
+
+            <p>
+                <!--Auto populate business name here--> recognizes its responsibility to protect the environment as a
+                guiding principle and a key component of its business performance. We are committed to integrate the
+                consideration of the environment in all our decision making and activities.
+            </p>
+            <p>
+                <!--Auto populate business name here-->complies with all environmental laws and regulations affecting
+                its operations, conforms to and follows the ISO 14001:2015 Environmental Standard, commits to
+                continually improve.
+            </p>
+            <p>
+                <!--Auto populate business name here--> current objectives include:
+            </p>
+
+            <input type="checkbox" name="">
+            <label for="">Reduce energy use</label><br>
+            <input type="checkbox" name="">
+            <label for="">Increase the efficient use of resources materials</label><br>
+            <input type="checkbox" name="">
+            <label for="">Environmental training to employees</label><br>
+            <textarea name="" id="" cols="80" rows="10" placeholder="If you have an existing policy, copy and paste here!"></textarea>
+
+            <input type="checkbox" name="">
+            <label for="">We commit to making our Environmental Policy publicly available. This can be done from your greenmark online dashboard. You can also download a PDF version of the policy from your dashboard.</label>
+
+            <h3>EMERGENCY RESPONSE</h3>
+            <p>To prevent and mitigate the environmental impacts associated with accidents and emergency situations, ISO 14001:2015 requires the establishment and maintenance of appropriate procedures. Such procedures may already be part of the business existing EMERGENCY PREPAREDNESS RESPONSE PLAN, possibly in more detail. Replace and add items as appropriate to your situation.</p>
+            <p><strong>Emergency response procedures need to be tested periodically and training needs to be provided to employees.</strong></p>
+
+            <div>
+                <table width="200">
+                    <caption>Environmental Annual Objectives to reduce negative impacts on land/air/water (add
+                        rows
+                        if needed for additional objectives, carefully chosen to ensure implementation):
+                    </caption>
+
+                    <tbody>
+                        <tr>
+                            <th>Potential Emergency</th>
+
+                            <th>Procedure</th>
+
+                            <th>Company Internal Contacts Info</th>
+
+                            <th>Outside Emergency Contacts Info</th>
+                        </tr>
+
+                        <tr>
+                            <th>Chemical contamination</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+
+                        <tr>
+                            <th>Water flooding</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+
+                        <tr>
+                            <th>Electrical outage</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+
+                        <tr>
+                            <th>Pest infestation</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+
+                        <tr>
+                            <th>Waste management</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+
+                        <tr>
+                            <th>Other</th>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                            <td><input type="text"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>NONCOMFORMITIES</h3>
+            <p>Nonconformities are incidents when actions and procedures put in place to achieve environmental objectives are not followed. Mistakes should be rare, but can happen, and ideally should not be repeated. When a nonconformity occurs, it requires corrective action, the steps you take to fix the problem of nonconformity:
+                <ul>
+                    <li>first, to describe what exactly happened</li>
+                    <li>next to find out why it happened</li>
+                    <li>then to create and put in place a solution that will avoid it from happening in the future</li>
+                    <li>finally, to document the process. Nonconformities are important learning during  audits when evaluating compliance with objectives. This is required to remain in compliance.</li>
+                </ul>
+            </p>
+
+            <p><u>Example of a documented nonconformity: <br>
+                Procedure: Do not idle electrical saw between batches</u></p>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Error details (what, when, where, who): <br>
+                            Electrical saw operator idled equipment between batches on second shift (date)</td>
+                    </tr>
+
+                    <tr>
+                        <td>Root Cause (why): <br>
+                            - New temporary employee, did not receive proper procedure training when started work <br>
+                            - There is no training procedure in place for new temporary employees</td>
+                    </tr>
+
+                    <tr>
+                        <td>Corrective Action: <br>
+                            Include training procedure for new temporary employees as a step in the intake process and</td>
+                    </tr>
+
+                    <tr>
+                        <td> Correction Completed: <br>
+                            Done, communicated and documented within two/three weeks from non-compliance (dates)</td>
+                    </tr>
+                </tbody>
+            </table> <br>
+            <p>Discuss, fix, train, communicate, document and file every time an action or a procedure to achieve an objective is not followed.</p>
+
+            <h3>COMMUNICATION</h3>
+            <p>Communication of the Environmental Management System (EMS) internally is required to inform, train, enhance environmental teamwork, and achieve objectives.</p>
+
+
+            <table width="200">
+                <caption>Communication Log:</caption>
+
+                <tbody>
+                    <tr>
+                        <th>Subject</th>
+
+                        <th>How communicated</th>
+
+                        <th>Person responsible to communicate</th>
+
+                        <th>Who receives</th>
+
+                        <th>When</th>
+                    </tr>
+
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+
+
+
+            <table width="200">
+                <caption>Communication Log:</caption>
+
+                <tbody>
+                    <tr>
+                        <th>Subject</th>
+
+                        <th>How communicated</th>
+
+                        <th>Person responsible to communicate</th>
+
+                        <th>Who receives</th>
+
+                        <th>When</th>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                     </tr>
 
                     <tr>
-                        <td>Water flooding</td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
-                        <td><input type="text"> </td>
-                    </tr>
-
-                    <tr>
-                        <td>Electrical outage</td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                     </tr>
 
                     <tr>
-                        <td>Pest infestation</td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
-                        <td><input type="text"> </td>
-                    </tr>
-
-                    <tr>
-                        <td>Waste management </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                     </tr>
 
                     <tr>
-                        <td>Other</td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
                         <td><input type="text"> </td>
@@ -989,742 +1171,111 @@
             </div>
         </div>
 
+
+
+
+
+
         <!-- Section for CHECK -->
-        <!-- Section 7 -->
         <div class="form-step">
-            <h2>SECTION 7: Policy</h2>
-                    <p>Now create your Environmental Policy, your flagship declaration of your commitment to the
-                        environment. Posted publicly in business office, on website and social media
-                        You It can be as long as you wish, as long as it includes the compliance with laws and
-                        regulations, conforming to ISO 14001:2015, and continual improvement. In the last section the
-                        company commits to specific improvements in certain areas of its operations, based on its
-                        objectives (see Policy example here):
-                    </p>
+                
+            <strong>Date:</strong> (up to three weeks delay from end of first cycle acceptable)</p>
+            <br>
+            <table width="200">
+                <caption>Communication Log:</caption>
 
-                    <h3>Environmental Policy</h3>
+                <tbody>
+                    <tr>
+                        <th>Objectives</th>
 
-                    <!-- Auto populate business name -->
+                        <th>Start Date committed to:</th>
 
-                    <p>complies with <br>
-                        and follows all environmental laws and regulations <br>
-                        affecting its operations,
-                        conforms to and follows the ISO 14001:2015 Environmental Standard, <br>
-                        and commits to continual improvement. <br>
-                        We aim to reduce energy use, <br>
-                        reduce waste from operations, <br>
-                        and increase environmental training of our employees, <br>
-                        thus contributing to the necessary significant reductions <br>
-                        in carbon emissions to achieve global climate change objectives.
-                    </p>
+                        <th>Achievement evaluation
+                            to-date</th>
 
-            <br><br>
-            
+                        <th>Comments/
+                            Next steps recommended</th>
+                    </tr>
 
+                    <tr>
+                        <td>Turn off lights nightly (at the end of the workday)</td>
+                        <td>October 30 2022</td>
+                        <td>Completed successfully</td>
+                        <td>Ensure continued implementation</td>
+                    </tr>
 
-            <!-- Section 8 -->
-        
-            <h3>SECTION 8:</h3>
-            <h4> Non-conformities.</h4>
-            <p>These are incidents when there is a breakdown in compliance and requirements are not followed.
-                The Correct Errors Sheet should be used to identify, analyze, find solutions, communicate
-                internally and document. These are important for auditors when they evaluate compliance with
-                objectives.</p>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
 
-            <p><i>Example of Correct Errors Sheet to fix non-conformities:</i></p>
-            <p>Discuss, fix, complete and file in Appendix every time an action or a procedure to achieve an
-                Objective is not followed. Keep blanks available in a visible place where activities occur.
-                Required to be in compliance.</p>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
 
-            <table>
-                <tr>
-                    <td>Error details (what, when, where, who): <br> Electrical saw operator idled equipment
-                        while not in use.</td>
-                </tr>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
 
-                <tr>
-                    <td>Root Cause (why): <br>
-                        New temporary employee, did not receive proper procedure training when started work.
-                    </td>
-                </tr>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
 
-                <tr>
-                    <td>Correction completed (date): <br> Within one week of non-compliance</td>
-                </tr>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                </tbody>
             </table>
 
-            <p><em><u>Link to Non-Conformities Correct Errors Blank Template <br>
-                        Link to filed Past Non-Conformities List
-                    </u></em></p>
+            <br>
+            <h2>AUDITS AND ANNUAL MANAGEMENT REVIEW</h2>
+            <p>Auditing is a key part of the ISO 14001:2015 System. Its function is to evaluate performance against the objectives that were chosen at the beginning of your annual cycle and conformance with compliance obligations.  The major audit is at the end of the year when all objectives are to be fully completed. To ensure compliance, periodic audits - at the end of every quarter - are undertaken during the year, to look at progress in achieving objectives.  The auditors are people working in the business, and no special auditing qualifications are necessary. Ideally another person than the one responsible for the objective should do the audit for the objective being evaluated. Auditors can be different people at different checkpoints.  As part of your annual subscription, greenmark will review your audit results.</p>
+
+            <p><strong>Note:</strong> the <strong>ISO 14001:2015</strong>  Standard does not require, nor does it favour the option of using official registrars over the options of self-declaration or other third party.  Below please find an example of periodic audits followed by blanks to be filled out at the end of each period and at the end of the year. <br>
+            <strong>In this example</strong> the company started its ISO 14001:2015 Environmental Management on September 1st. <strong> (Note that the start can be at any time during the year).</strong></p>
+
+            <p><strong>Checkpoint 1 Example:</strong>for a company starting its EMS (Environmental Management System) on September 1, 2022: <br>
+            First Quarter Audit for the period September 1 – November 30,2022,
+            <strong> Annual cycle:</strong> September 1 2022 – August 31 2023
+            <strong> Auditor:</strong> Mercedez Garcia
+                
+            <strong>Signature</strong>
 
-            <br><br>
-
-
-            <!-- Section 9 -->
-        
-            <h2>SECTION 9: Communication Log:</h2>
-                    <p><strong><u>Communication of the Environmental Management System throughout the business is
-                                required to inform, achieve teamwork in achieving objectives and continual improvement.
-                                The log documents the ongoing communication activities. Many activities require
-                                additional communications.</u></strong></p>
-
-                    <table>
-                        <caption>MY NOTE: Just fill in the blanks</caption>
-                        <tr>
-                            <th>Subject</th>
-                            <th>How communicated</th>
-                            <th>Who is responsible</th>
-                            <th>Who receives</th>
-                            <th>When</th>
-                        </tr>
-
-                        <tr>
-                            <td>Government Laws and Regulations</td>
-                            <td>Announcements, reports, emails, messages, training</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Environmental Aspects and Impacts Meetings, training, audits, online system document
-                            </td>
-                            <td>Meetings, training, audits, online system document</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Government Laws and Regulations</td>
-                            <td>Announcements, reports, emails, messages, training</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Objectives, Procedures</td>
-                            <td>Meetings, on the job; cards/devices; training;</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Emergency Response <br> Resources</td>
-                            <td>In office, on sites. where required</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Training schedules</td>
-                            <td>Employee communications</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Non-conformities,
-                                blanks and filled</td>
-                            <td>Easily available to fill out, discuss, correct and review</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-
-                        <tr>
-                            <td>Other EMS Information</td>
-                            <td>Meetings, org. info, training, etc.</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-                    </table>
-
-
-
-                    <h3>Environmental Management System</h3>
-                    <h4>Marketing Strategies available from implementing the Environmental System</h4>
-
-                    <table>
-                        <tr>
-                            <th>Area</th>
-                            <th>Strategy</th>
-                            <th>Benefit</th>
-                            <th>Who receives</th>
-                            <th>Cost</th>
-                        </tr>
-
-                        <tr>
-                            <td>Environmental Policy </td>
-                            <td>Communicate new organization policy to employees, service users, suppliers and the
-                                public </td>
-                            <td>On location, website,
-                                in promotional materials, in meetings, media, shows, etc.
-                            </td>
-                            <td>Stronger organization profile with all stakeholders</td>
-                            <td>Environmental
-                                Policy Communicate new organization policy to employees, service users, suppliers and
-                                the public On location, website,
-                                in promotional materials, in meetings, media, shows, etc. Stronger organization profile
-                                with all stakeholders Minimal if incorporated in current materials and activities;
-                                higher if doing new campaign
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>ISO 14001:2015
-                                Environmental Management System
-                                Implementation </td>
-                            <td>On location, website,
-                                in promotional materials, in meetings, trade shows, etc., community events
-                            </td>
-                            <td>Credibility; proof of disciplined approach; advantage vs. other organizations </td>
-                            <td>Minimal if incorporated in current materials and activities; higher if using new
-                                campaign</td>
-                        </tr>
-
-                        <tr>
-                            <td>Positive changes impacting the environment: energy savings, reducing waste, buying
-                                green, new initiatives, cost savings</td>
-                            <td>ACommunicate to all stakeholders including the community at large</td>
-                            <td>On location, website, in promotional materials, in meetings, shows, community events, in
-                                various media</td>
-                            <td>Employee satisfaction based on achieving concrete Objectives; role model to other
-                                organizations; innovative profile</td>
-                            <td>Positive changes impacting the environment: energy savings, reducing waste, buying
-                                green, new initiatives, cost savings Communicate to all stakeholders including the
-                                community at large On location, website,
-                                in promotional materials, in meetings, shows, community events, in various media
-                                Employee satisfaction based on achieving concrete Objectives; role model to other
-                                organizations; innovative profile Minimal if incorporated in current materials and
-                                activities; higher if using new campaign
-                            </td>
-                        </tr>
-                    </table>
-
-
-            <br><br>
-
-             <!-- Section 10 -->
-            <h3>SECTION 10: ISO Documentation Requirement Log:</h3>
-            <table>
-                <tr>
-                    <th>Content</th>
-                    <th>Where kept</th>
-                    <th>Other location/links</th>
-                    <th>Responsible</th>
-                    <th>Date of last change</th>
-                </tr>
-
-                <tr>
-                    <td>Regulatory permits and records</td>
-                    <td>Legal documents main location</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Environmental Aspects & Impacts</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Policy</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Objectives Actions and Procedures</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Emergency Response (risks)</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Communication Log</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Training documents</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Completed Correct Errors Sheets</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td>Audits, Periodic and Annual Review</td>
-                    <td>This document (EMS)</td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-
-            <br><br>
-
-            <!-- Section 11 -->
-        
-            <h2>SECTION 11: Audits and Management Review</h2>
-            <h4>Periodic evaluations of the objectives achievement status should be undertaken, ideally
-                every quarter</h4>
-            <table>
-                <caption>Objectives Achievement Evaluation Checkpoint 1: end of first quarter in annual
-                    cycle (After 1st 3 months)</caption>
-                <tr>
-                    <th>Objective</th>
-                    <th>Objective Achievement evaluation</th>
-                    <th>Comments/next steps</th>
-                    <th>Auditor name and signature </th>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td<input type="text">
-                        </td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-
-
-            <h4>Periodic evaluations of the objectives achievement status should be undertaken, ideally
-                every quarter</h4>
-            <table>
-                <caption>Objectives Achievement Evaluation Checkpoint 1: end of first quarter in annual
-                    cycle (After 6 months)</caption>
-                <tr>
-                    <th>Objective</th>
-                    <th>Objective Achievement evaluation</th>
-                    <th>Comments/next steps</th>
-                    <th>Auditor name and signature </th>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td<input type="text">
-                        </td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-            <br><br>
-
-
-            <h4>Periodic evaluations of the objectives achievement status should be undertaken, ideally
-                every quarter</h4>
-            <table>
-                <caption>Objectives Achievement Evaluation Checkpoint 1: end of first quarter in annual
-                    cycle (After 9 months)</caption>
-                <tr>
-                    <th>Objective</th>
-                    <th>Objective Achievement evaluation</th>
-                    <th>Comments/next steps</th>
-                    <th>Auditor name and signature </th>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td<input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-
-
-            <!-- 12month -->
-            <table>
-                <caption>Objectives Achievement Evaluation Checkpoint 1: end of first quarter in annual
-                    cycle (After 9 months)</caption>
-                <tr>
-                    <th>Date</th>
-                    <th>Objective</th>
-                    <th>Objective Achievement evaluation</th>
-                    <th>Comments/next steps</th>
-                    <th>Auditor name and signature </th>
-                </tr>
-
-                <tr>
-                    <td><input type="date"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="date"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="date"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="date"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
             <br><br>
             <div class="btns-group">
                 <a href="#" class="btn btn-prev">Previous</a>
@@ -1732,134 +1283,32 @@
             </div>
         </div>
 
-            <!-- Sectoin for ACT -->
+
+
+        <!-- Sectoin for ACT -->
         <div class="form-step">
-            <h3>The Annual Review should be completed at the end of the review of the fourth quarter or soon
-                after</h3>
-            <p><u>Evaluation of First Year Performance and Recommendations of Next Year Directions:></u></p>
+            <h3>ANNUAL MANAGEMENT REVIEW</h3>
+            <p><strong>This review should be completed at the end of the year:</strong> it can be done during or right after the fourth Quarter Audit or soon after. The Key Decision Maker/s and the Environment Manager do the following:
+            <ol>
+                <li>Evaluate the overall environmental performance in light of the policy and commitment to objectives</li>
 
-            <label for="">1. Management Evaluation and Report:</label>
-            <textarea name="" id="" cols="115" rows="10"></textarea>
+                <li>Identify and commit to new objectives taking into account changes in the business during the last year</li>
 
-            <label for="">2. Manager Responsible for EMS Implementation evaluation:</label>
-            <textarea name="" id="" cols="115" rows="10"></textarea>
-            <br>
-            <h2>Appendix:</h2>
-            <ul>
-                <li>Includes any documents necessary to support the Environmental Management System
-                    Documentation</li>
-                <li>Examples:</li>
-                <li>Detailed procedures</li>
-                <li>Training logs</li>
-                <li>Correct Errors Completed Sheets</li>
-                <li>Notes and other documents</li>
-            </ul>
+                <li>Sign off on starting a new ISO 14001:2015 cycle and celebrate success</li>
+            </ol>
+            </p>
 
+            <h3>CONTINUAL IMPROVEMENT</h3>
+            <p><!--Auto populate Business Name--> commits to having quarterly and annual reviews, audited by greenmark. </p>
 
-            <table>
-                <caption>Example or Training Log Related to Business Activities:</caption>
-                <tr>
-                    <th>Activity</th>
-                    <th>Who completed training/when</th>
-                    <th>Who needs training</th>
-                    <th>Training Date</th>
-                    <th>Trainer</th>
-                </tr>
+            <p><!--Auto populate Business Name-->  commits to continually improve its environmental management system, evidenced by the greenmark online registry.</p>
 
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
 
             <br><br>
             <div class="btns-group">
                 <a href="#" class="btn btn-prev">Previous</a>
-                <button type="submit" class="btn">Submit</button>
-                </div>
+                <button type="submit" class="btn">Launch your ISO 14001:2015 EMS</button>
+            </div>
         </div>
 
     </form>
